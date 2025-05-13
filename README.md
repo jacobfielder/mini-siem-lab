@@ -16,7 +16,7 @@ A lightweight Python-based SIEM tool that monitors SSH logs, detects brute-force
 
 ## 🖼️ Demo
 
-> 📷 Screenshot of alert in Slack [Slack Alert](https://github.com/jacobfielder/mini-siem-lab/blob/main/images/siem-slackalert.png?raw=true)
+> 📷 Screenshot of alert in Slack ![Slack Alert](https://github.com/jacobfielder/mini-siem-lab/blob/main/images/siem-slackalert.png?raw=true)
 
 ## How the SIEM Works
 
