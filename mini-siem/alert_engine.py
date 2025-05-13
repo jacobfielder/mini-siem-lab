@@ -1,7 +1,8 @@
 import requests
 
 def send_slack_alert(ip, count):
-    webhook_url = "https://hooks.slack.com/services/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"
+    # use your personal slack url for the webhook once generated
+    webhook_url = "https://hooks.slack.com"
 
     message = {
         "text": f"🚨 ALERT: {ip} has triggered {count} failed SSH login attempts!"
