@@ -37,7 +37,6 @@ A lightweight Python-based SIEM tool that monitors SSH logs, detects brute-force
 - alert_engine.py – Sends messages to Slack
 - test_logs/auth.log – A sample log file you can test with
 - requirements.txt – Python libraries you need
-- README.md – This file
 
 ## 🧠 What I Learned
 
