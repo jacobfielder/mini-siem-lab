@@ -16,17 +16,17 @@ A lightweight Python-based SIEM tool that monitors SSH logs, detects brute-force
 
 ## 🖼️ Demo
 
-> 📷 Screenshot of alert in Slack (replace with your own)
+> 📷 Screenshot of alert in Slack [Slack Alert](https://github.com/jacobfielder/mini-siem-lab/blob/main/images/siem-slackalert.png?raw=true)
 
 ## How the SIEM Works
 
-- 1. Reads a log fole ('auth.log') line by line
-- 2. Uses expressions to extract
+1. Reads a log fole ('auth.log') line by line
+2. Uses expressions to extract
 	- Username
 	- IP address
 	- Port
-- 3. Tracks failed logins per IP address
-- 4. If an IP hits the threshold, it will:
+3. Tracks failed logins per IP address
+4. If an IP hits the threshold, it will:
 	- Print to the console
 	- Send an alert to a configured Slack channel
 
